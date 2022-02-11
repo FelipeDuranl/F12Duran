@@ -57,17 +57,19 @@ ul li a{
 
 nav a:hover{
     border-bottom: 3px solid rgb(50, 81, 185);
+    color: rgb(50, 81, 185);;;
     border-radius: 100%;
     transition: all .5s;
 }
 
 ul li a:active{
-    color: rgb(50, 81, 185);;
+    color: rgb(50, 81, 185);
 }
 
 
 
 ul li:hover{
+    color: rgb(50, 81, 185);
     transform: scale(1.1);
     transition: all .5s;
 }
@@ -137,6 +139,15 @@ section{
     transition: all .3s;
 }
 
+svg{
+    fill: rgb(170, 190, 255);
+    margin: 0px 10px 0px 10px;
+
+}
+svg:hover{
+    fill: rgb(50, 81, 185);
+}
+
 .curriculum{
     display: flex;
     align-items: center;
@@ -154,13 +165,20 @@ section{
 }
 
 
+
+
 .curriculum button a{
     color: #333333;
     font-weight: bold;
 }
 .button:hover{
+    background-color: rgb(50, 81, 185);
     transform: scale(1.1);
     transition: all .3s;
+}
+
+.button:hover a{
+    color: #fff;
 }
 
 /*Main*/
